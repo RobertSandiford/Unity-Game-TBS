@@ -3,9 +3,10 @@
 /Library
 /Logs
 /obj
-/Package
+/Packages
 /ProjectSettings
 /UIElementsSchema
+/Temp
 .vsconfig
 Assembly-CSharp.csproj
 MyFirstGame.sln

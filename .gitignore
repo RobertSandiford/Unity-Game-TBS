@@ -1,0 +1,12 @@
+/Assets/**/*.meta
+/.vs
+/Library
+/Logs
+/obj
+/Package
+/ProjectSettings
+/UIElementsSchema
+.vsconfig
+Assembly-CSharp.csproj
+MyFirstGame.sln
+Tests.csproj

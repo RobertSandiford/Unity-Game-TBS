@@ -43,7 +43,7 @@ public class MapGen
     {
         //int seed = 2644;
         //int seed = 1734734;
-        int seed = 47358485;
+        int seed = 463211;
         random = new System.Random(seed);
 
         baseHeightMultiplier = map.baseHeightMultiplier;

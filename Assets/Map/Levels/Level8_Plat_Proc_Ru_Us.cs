@@ -9,7 +9,7 @@ public static partial class LevelDefs
     {
         randomMap = true,
          width = 27,
-         height = 60,
+         height = 48,
 
         aiMission = AiMission.Objective,
 
@@ -54,7 +54,9 @@ public static partial class LevelDefs
             /////////////////////
             // Team 1 - Russia
             /////////////////////
-            new MapPlatoon(1, "base", new int[] { 5, -1 }, PlatoonDefs.Platoon_RU_T_72B3), // T72 Platoon
+            new MapPlatoon(1, "base", new int[] { -3, 1 }, PlatoonDefs.Platoon_RU_T_72B3), // T72 Platoon
+            new MapPlatoon(1, "base", new int[] { -4, 0 }, PlatoonDefs.Platoon_RU_T_72B3), // T72 Platoon
+            new MapPlatoon(1, "base", new int[] { -5, -1 }, PlatoonDefs.Platoon_RU_T_72B3), // T72 Platoon
 
             new MapPlatoon(1, "base", new int[] { 1, 1 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_Coy_Hq_Bmp2), // MR BMP Coy Platoon Group
             new MapPlatoon(1, "base", new int[] { 0, 2 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_Bmp2), // MR BMP Platoon Group
@@ -63,11 +65,10 @@ public static partial class LevelDefs
 
             new MapPlatoon(1, "base", new int[] { -2, -2 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_82mm_Mortar), // MR Mortar Platoon Group
 
-            new MapPlatoon(1, "base", new int[] { -3, 1 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_Kornet), // MR Regiment Konkurs AT Platoon Group
+            new MapPlatoon(1, "base", new int[] { 5, -1 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_Kornet), // MR Regiment Konkurs AT Platoon Group
 
             new MapPlatoon(1, "base", new int[] { 1, -1 }, PlatoonGroupDefs.PlatoonGroup_RU_Motor_Rifle_Igla), // MR Regiment Igla AA Platoon Group
 
-            new MapPlatoon(1, "base", new int[] { 0, 0 }, PlatoonGroupDefs.PlatoonGroup_US_Mech_Inf), // test
 
 
 
